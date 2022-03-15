@@ -1,0 +1,42 @@
+[{"img":"img/jenny.jpeg",
+  "name":"Jenny Sun",
+  "major":"Accounting & English",
+  "linkedin":"https://www.linkedin.com/in/jennyjsun28/",
+  "popup":"Jenny is a senior studying Accounting and minor in English. She used to serve at Alumni Relation chair.",
+  "class": "Spring 2019"},
+
+  {"img":"img/alina.jpeg",
+    "name":"Alina Guo",
+    "major":"Finance & Informaiton System",
+    "linkedin":"https://www.linkedin.com/in/alina-guo/",
+    "popup":"Alina is a junior studying finance and information system. She is the current chair of Alumni Relation",
+    "class": "Fall 2019"},
+
+  {"img":"img/krystal.jpeg",
+    "name":"Krystal Graylin",
+    "major":"Informatics",
+    "linkedin":"https://www.linkedin.com/in/krystalgraylin/",
+    "popup":"Krystal is a junior studying informatics. She is very involved in the technology community.",
+    "class": "Fall 2019"},
+
+    {"img":"img/david.jpeg",
+        "name":"David Liew",
+        "major":"Finance & Information Systems",
+        "linkedin":"https://www.linkedin.com/in/davidmliew/",
+        "popup":"David is a senior studying finance and information systems. He is the current president of AKPsi Rho",
+        "class": "Fall 2018"},
+
+        {"img":"img/kyle.jpeg",
+            "name":"Kyle Tsang",
+            "major":"Marketing & Information Systems",
+            "linkedin":"https://www.linkedin.com/in/kyletsang285/",
+            "popup":"Kyle is a senior studying marketing and information systems. He is the current Rho innovate chair.",
+            "class": "Spring 2021"},
+
+            {"img":"img/rachelle.jpeg",
+                "name":"Rachelle Lui",
+                "major":"Information Systems",
+                "linkedin":"https://www.linkedin.com/in/rachellelui/",
+                "popup":"Rachelle is a junior studying information systems. She is also the senior partner for Rho Consulting.",
+                "class": "Spring 2021"}
+]

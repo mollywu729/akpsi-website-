@@ -1,0 +1,522 @@
+/* Rules for small mobile screen */
+header.container {
+    color: white;  
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    background-image: url('../img/akpsi.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* for first section of landing (home) page */
+.home-page-header {
+    background-image: url('../img/first-section-bg.png');
+    image-orientation: flip;
+    background-size: cover;
+	width: 100%;
+	padding: 20% 0px 20% 0px;
+}
+
+.tagline {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    color: white;
+
+}
+.tagline h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    color: white;
+    padding-top: 4rem;
+    font-weight: 100;
+}
+.motto{
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 300;
+    color: white;
+}
+/* end of first section code */
+
+/* who we are section */
+.who-container {
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    text-align: center;
+    background-color: white;
+    display: flex;
+}
+.who-section {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.who-section p  {
+    text-align: left;
+    padding-right: 4rem;
+    font-size: 1.2rem;
+}
+
+/* join us section (second) */
+
+.join-section {
+    background-image: url(../img/third-section-bg.png);
+    image-orientation: flip;
+	background-size: cover;
+	width: 100%;
+	padding: 20% 0px;
+}
+.join-container {
+    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+    display: flex;
+}
+.join-us {
+    color: white;  
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    background-size: cover;
+    background-position: center;
+}
+.join-section p  {
+    text-align: right;
+    color: white;
+    padding-left: 5rem;
+    font-size: 1.2rem;
+    padding-top: 7rem;
+}
+.left-dark {
+    color: white;
+    text-align: left;
+    font-size: 3rem;
+    padding-top: 7rem;
+}
+/* end of join us section */
+
+/* values section (last/third section) */
+
+.values-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    text-align: right;
+    background-color: white;
+    display: flex;
+}
+.values-section {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.values-section p  {
+    text-align: left;
+    padding-right: 2rem;
+}
+/* end of values section */
+
+/* settings for section blocks and buttons for home page */
+.container-left-block {
+    width: 50%;
+}
+div.container-right-block {
+    flex-grow: 1;
+}
+.container-left-block1 {
+    flex-grow: 1;
+}
+.container-right-block1 {
+    width: 50%;
+    padding-left: 2rem;
+    font-size: 3rem;
+}
+.btn-light {
+    border: none;
+    padding: none;
+    text-align: right;
+}
+.btn-dark {
+    border: none;
+    padding-right: none;
+    
+}
+
+footer {
+	font-size: 0.8rem;
+    padding-top: 2rem;
+    padding-left: 4rem;
+}
+    
+.right {
+    text-align: right;
+    font-weight: 200;
+    font-size: 3rem;
+}
+/* end settings for section blocks and buttons for home page*/
+
+
+
+h2 {
+    font-size: 2rem;
+    text-align: center;  
+}
+
+
+h1, h2, h3 {
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-weight: 300;
+    position: relative;
+    margin-top: 0; 
+    margin-bottom: .5rem;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+}
+
+nav .navbar-header {
+    display: inline-block;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    position: fixed;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;  
+    margin: 0; 
+    text-align: right;
+    list-style: none;
+}
+nav li {
+    display: inline;
+    margin: 0.4rem;
+    display: inline-block;
+}
+c.navbar-header a, .navbar-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav > a:hover {
+    color:#f0f0f0;
+    border-bottom: .8rem, solid, #f0f0f0;
+}
+
+
+.recruitment {
+    font-size: 0.75rem;
+    text-align: center;
+    color: black;
+}
+
+.rush-hub-button{
+	display: inline-block;
+}
+
+.join-us-title {
+    text-align: center;
+    color: black;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 2rem;
+}
+
+.container-banner-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    padding-bottom: 2rem;
+    width: 80%;
+    height: 80%;
+}
+
+.container-message p {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: left;
+}
+
+/* rules for interest form (small screen)*/
+.interest-form, .event-form {
+    background-color: #A9B9C7; opacity: 0.6;
+    background-size: cover;
+    display: flex;
+}
+
+.container-top-bottom{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.interest-form-title, .event-form-title {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vw;
+    padding-top: 3rem;
+    padding-bottom: 1vw;
+    text-align: center;
+}
+.form-response {
+    width: 100%;
+    padding-top: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+/* navbar for light background */
+nav.member-nav {
+    background-image: url('../img/grey_background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-header {
+    display: inline-block;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    position: fixed;
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+
+.navbar-menu-member a, .navbar-header a{
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.navbar-menu-member button {
+    text-align: right;
+}
+
+
+/* member page content rules */
+/* title rules */
+.brother-title, .event-title {
+	position: center;
+	padding-top: 3rem;
+    margin-left:11rem;
+    color: #3A3535;
+    font-size: 25px;
+    margin-top: 30px;
+	
+}
+.dropdown {
+	position: relative;
+	text-align: center;	
+}
+
+/* rules for card */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 2em;
+}
+
+
+.card a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-family: "Raleway", Helvetica, sans-serif;
+   margin-bottom: 0.5em;
+}
+
+/* Rules for flipping the page */
+.button {
+  font-size:0.1em;
+  padding: 5px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.button:hover {
+  background: #F4F4F4;
+  color: #3A3535;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #3A3535;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+/* Rules for the event page */
+
+.log-in {
+	position: relative;
+	left: 80%;
+	margin-bottom: 1rem;
+}
+
+	
+.event {
+  box-sizing: border-box;
+  border: 1px solid black;
+} 
+
+ 
+/* style rules for screens 992px or wider */
+@media (min-width: 992px) {
+	/* for members page	 */
+    .member-nav {
+    	background-image: none;
+    }
+    .container {
+    	background-color: #F4F4F4;
+    	
+    }
+    
+    .brother-title, .join-us-title, .event-title{
+    	font-size: 3rem;
+    }
+    
+    .dropdown{
+    	background-color: #3A3535;
+    	color: white;
+    	width: 330px;
+    	height: 45px;
+    	border-radius: 10px;
+    	margin-top: 4rem;
+    	margin-bottom: 1rem;
+    	margin-left: 37rem;
+    	position: center;
+    	padding: 0.8rem;
+    }
+    
+    .container {
+    	display: flex;
+    	flex-wrap: wrap;
+    	row-gap: 10px;
+ 		column-gap: 20px;
+    }
+    
+    .card {
+    	margin-bottom: 4rem;
+    }
+    
+    .brother-title, .event-title{
+		margin-left:28rem;
+	}
+
+    /* for home page */
+    .who-container {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+    .join-container {
+        padding-left: 12rem;
+        padding-right: 12rem;
+    }
+    .values-container {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+	
+	/* for join page */
+	.join-us-title {
+    	margin-top: -3rem;
+	}
+	
+	.form-response {
+    display: inline-block;
+    padding: 1vw;
+    margin-top: -3rem;
+    margin-bottom: -0.5rem;
+    margin-left: 5vw;
+    width: 100%;
+	}
+
+	.interest-form-title, .event-form-title {
+    	display: inline-block;
+    	text-align: left;
+    	font-size: 1vw;
+    	color: white;
+    	margin-top: 3.5rem;
+    	margin-bottom: -5rem;
+    	margin-left: -32vw;
+    	margin-right: 1vw;
+    	padding-top: 1rem;
+    	padding-right: 3vw;
+    	width: 10%;
+	}
+}

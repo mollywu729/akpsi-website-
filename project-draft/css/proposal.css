@@ -1,0 +1,22 @@
+header h1 {
+	font-size: x-large;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000080;
+}
+
+Section {
+	background-color: white;
+	display: block;
+}
+
+p {
+	font-size: small;	
+}
+
+h2, h3, h4 {
+	font-size: medium;
+	font-family: "Times New Roman", Times, serif;
+	font-color: color: #000080;
+    -webkit-text-stroke-width: 1px;
+}
+

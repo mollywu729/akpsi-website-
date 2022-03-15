@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Molly Wu, Cynthia Chung, Yaying Wang">
+    <meta name="description" content="member profile page for Alpha Kappa Psi">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Members</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" 
+      type="image/png" 
+      href="img/akpsi_crest.png" alt="image of akpsi">
+</head>
+<body className= "container">
+ 
+  <nav className= member-nav>
+    <div className= "container-fluid">
+        <header>
+          <div className= "navbar-header">
+              <a href="index.html">AKΨ Rho</a>
+          </div>
+        </header>
+        <div className= "navbar-menu-member">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="members.html">Members</a></li>
+              <li><a href="Events.html">Events</a></li>
+              <li><a href="join.html">Join Us</a></li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+
+<!-- top title & filter button -->
+  <main>
+    <section>
+      <h1 className= "brother-title">Our Brothers</h1>
+      <div className= "dropdown">
+        <label htmlFor="pledge class">Select Plege Class</label>
+        <select name="Pledge Class" id="PledgeClass">
+          <option value="Fall 2018">Fall 2018</option>
+          <option value="Spring 2019">Spring 2019</option>
+          <option value="Fall 2019">Fall 2019</option>
+          <option value="Spring 2020">Spring 2020</option>
+          <option value="Fall 2020">Fall 2020</option>
+          <option value="Spring 2021">Spring 2021</option>
+        </select>
+      </div>
+    </section>
+  
+
+    <!-- member profile -->
+    <section>
+      <div className= "container">
+        <div className= "row">
+          <!-- Member 1 -->
+          <div className= "card" >
+            <img src="img/jenny.jpeg" alt="Picture of Jenny" style="width:100%">
+            <h2>Jenny Sun</h2>
+            <p className= "major">Accounting & English</p>
+            <a href="https://www.linkedin.com/in/jennyjsun28/"><button  type="button" className= "btn btn-dark">LinkedIn</button></a>
+            <div className= "box">
+              <a className= "button" href="#popup1">Click here to learn more!</a>
+            </div>
+            <div id="popup1" className= "overlay">
+              <div className= "popup">
+                <h3>Jenny Sun</h3>
+                <a className= "close" href="#">&times;</a>
+                <div className= "content">
+                  Jenny is a senior studying Accounting and minor in English. She used to serve at Alumni Relation chair. 
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Member 2 -->
+          <div className= "card">
+            <img src="img/alina.jpeg" alt="Picture of Alina" style="width:100%">
+            <h2>Alina Guo</h2>
+            <p className= "major">Finance & Information System</p>
+            <a href="https://www.linkedin.com/in/alina-guo/"><button  type="button" className= "btn btn-dark">LinkedIn</button></a>
+            <div className= "box">
+              <a className= "button" href="#popup2">Click here to learn more!</a>
+            </div>
+            <div id="popup2" className= "overlay">
+              <div className= "popup">
+                <h3>Alina Guo</h3>
+                <a className= "close" href="#">&times;</a>
+                <div className= "content">
+                  Alina is a junior studying finance and information system. She is the current chair of Alumni Relation and plan to study 
+                  abord soon.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Member 3 -->
+          <div className= "card">
+            <img src="img/krystal.jpeg" alt="Picture of Krystal" style="width:100%">
+            <h2>Krystal Graylin</h2>
+            <p className= "major">Informatics</p>
+            <a href="https://www.linkedin.com/in/krystalgraylin/"><button  type="button" className= "btn btn-dark">LinkedIn</button></a>
+            <div className= "box">
+              <a className= "button" href="#popup3">Click here to learn more!</a>
+            </div>
+            <div id="popup3" className= "overlay">
+              <div className= "popup">
+                <h3>Krystal Graylin</h3>
+                <a className= "close" href="#">&times;</a>
+                <div className= "content">
+                 Krystal is a junior studying informatics. She is very involved in the technology community and have been coordinating hackthons
+                 such as Dubhacks since Freshman year.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Member 4 -->
+          <div className= "card">
+            <img src="img/david.jpeg" alt="Picture of David" style="width:100%">
+            <h2>David Liew</h2>
+            <p className= "major">Finance & Information System</p>
+            <a href="https://www.linkedin.com/in/davidmliew/"><button  type="button" className= "btn btn-dark">LinkedIn</button></a>
+            <div className= "box">
+              <a className= "button" href="#popup4">Click here to learn more!</a>
+            </div>
+            <div id="popup4" className= "overlay">
+              <div className= "popup">
+                <h3>David Liew</h3>
+                <a className= "close" href="#">&times;</a>
+                <div className= "content">
+                  David is a senior studying finance and information system. He is the current president of AKPsi Rho and co-president 
+                  of Big Impact Group. 
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Member 5 -->
+          <div className= "card">
+            <img src="img/kyle.jpeg" alt="Picture of Kyle" style="width:100%">
+            <h2>Kyle Tsang</h2>
+            <p className= "major">Marketing & Information System</p>
+            <a href="https://www.linkedin.com/in/kyletsang285/"><button  type="button" className= "btn btn-dark">LinkedIn</button></a>
+            <div className= "box">
+              <a className= "button" href="#popup5">Click here to learn more!</a>
+            </div>
+            <div id="popup5" className= "overlay">
+              <div className= "popup">
+                <h3>Kyle Tsang</h3>
+                <a className= "close" href="#">&times;</a>
+                <div className= "content">
+                  Kyle is a senior studying marketing and information system. He is the current Rho innovate chair. Upon graduation,
+                  he is going to West Monroe.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Member 6 -->
+          <div className= "card">
+            <img src="img/rachelle.jpeg" alt="Picture of Rachelle" style="width:100%">
+            <h2>Rachelle Lui</h2>
+            <p className= "major">Information System</p>
+            <a href="https://www.linkedin.com/in/rachellelui/"><button  type="button" className= "btn btn-dark">LinkedIn</button></a>
+            <div className= "box">
+              <a className= "button" href="#popup6">Click here to learn more!</a>
+            </div>
+            <div id="popup6" className= "overlay">
+              <div className= "popup">
+                <h3>Rachelle Lui</h3>
+                <a className= "close" href="#">&times;</a>
+                <div className= "content">
+                Rachelle is a junior studying information system. She is also the senior partner for Rho Consulting. She has a YouTube channel 
+                and very passionate about coffee hopping. 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Author Info -->
+  <footer>
+    <p>Created by Molly Wu, Cindy Chung, Yaying Wang</p>
+      <address>
+        Contact me at <a href="mailto:cchung8@uw.edu">akpsirho.com</a>.
+      </address>
+    <p>&copy; 2021 by Alpha Kappa Psi Rho Chapter</p>
+  </footer>
+ 
+</body>
+</html>
